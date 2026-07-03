@@ -85,6 +85,11 @@ export const promises = [
   { title: "Pelukan virtual", detail: "Kalau kamu jarak jauh dengan Abang, tetap ada pelukan hangat di sini." },
 ];
 
+export const verseQuote = {
+  text: "Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan.",
+  reference: "Yeremia 29:11",
+};
+
 export const footerText = {
   ending: "Kalau kamu berhasil sampai bagian paling bawah... berarti hari ini kamu juga berhasil bertahan. Dan itu lebih dari cukup.",
   signature: ["Made by Abang", "With <3", "Ketapang, Kalimantan Barat"],

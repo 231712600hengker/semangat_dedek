@@ -38,6 +38,80 @@ button {
   overflow-x: hidden;
   background: #f8f1e8;
   color: #342927;
+  transition: background 220ms ease, color 220ms ease;
+}
+
+.app-shell.dark {
+  background: linear-gradient(135deg, #241918 0%, #171111 100%);
+  color: #f7ece5;
+}
+
+.app-shell.dark .controls-panel,
+.app-shell.dark .letter-card,
+.app-shell.dark .journey-shell,
+.app-shell.dark .sticky-shell,
+.app-shell.dark .memory-gallery-shell,
+.app-shell.dark .reasons-shell,
+.app-shell.dark .mission-shell,
+.app-shell.dark .promise-shell,
+.app-shell.dark .graduation-shell,
+.app-shell.dark .ending-shell,
+.app-shell.dark .verse-card,
+.app-shell.dark footer {
+  background: rgba(42, 31, 29, 0.95);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #f7ece5;
+  box-shadow: 0 24px 52px rgba(0, 0, 0, 0.25);
+}
+
+.app-shell.dark .hero-copy p,
+.app-shell.dark .letter-body p,
+.app-shell.dark .timeline-content p,
+.app-shell.dark .sticky-note,
+.app-shell.dark .memory-meta p,
+.app-shell.dark .mission-card p,
+.app-shell.dark .promise-card p,
+.app-shell.dark .graduation-card p,
+.app-shell.dark .ending-card p,
+.app-shell.dark footer p,
+.app-shell.dark .section-heading h2,
+.app-shell.dark .timeline-content h3,
+.app-shell.dark .memory-meta h3,
+.app-shell.dark .mission-card h3,
+.app-shell.dark .promise-card h3,
+.app-shell.dark .controls-copy strong {
+  color: #f7ece5;
+}
+
+.app-shell.dark .timeline-item,
+.app-shell.dark .sticky-note,
+.app-shell.dark .reason-card,
+.app-shell.dark .mission-card,
+.app-shell.dark .promise-card,
+.app-shell.dark .graduation-card,
+.app-shell.dark .ending-card,
+.app-shell.dark .control-button,
+.app-shell.dark .hero-button {
+  background: rgba(61, 46, 42, 0.95);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #f7ece5;
+}
+
+.app-shell.dark .hero-scroll-hint,
+.app-shell.dark .controls-copy p,
+.app-shell.dark .section-heading span,
+.app-shell.dark .letter-top,
+.app-shell.dark .memory-meta span,
+.app-shell.dark .reason-card span,
+.app-shell.dark .timeline-content p,
+.app-shell.dark .footer-signature span,
+.app-shell.dark .footer-meta span {
+  color: #e0b9a7;
+}
+
+.app-shell.dark .hero-button,
+.app-shell.dark .control-button {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
 }
 
 .page-loader {
@@ -321,6 +395,29 @@ button {
 
 .letter-card {
   background: linear-gradient(180deg, #fff8f4 0%, #f7efe8 100%);
+}
+
+.verse-card {
+  display: grid;
+  gap: 10px;
+  padding: 24px 28px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #fff7f0 0%, #f4e7dc 100%);
+  border: 1px solid rgba(124, 49, 56, 0.12);
+  box-shadow: 0 18px 34px rgba(87, 58, 51, 0.08);
+}
+
+.verse-card p {
+  margin: 0;
+  font-size: 1.04rem;
+  line-height: 1.8;
+  color: #5f4b45;
+}
+
+.verse-card span {
+  font-size: 0.94rem;
+  font-weight: 800;
+  color: #8a5249;
 }
 
 .letter-top {

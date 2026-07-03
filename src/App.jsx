@@ -15,7 +15,7 @@ import { GraduationSection } from "./components/GraduationSection";
 import { EndingSection } from "./components/EndingSection";
 import { BackgroundEffects } from "./components/BackgroundEffects";
 import { ControlsPanel } from "./components/ControlsPanel";
-import { heroContent, footerText, dailyMessages } from "./data/content";
+import { heroContent, footerText, dailyMessages, verseQuote } from "./data/content";
 import "./styles.css";
 
 export default function App() {
@@ -81,6 +81,12 @@ export default function App() {
       />
 
       <HeroSection heroContent={heroContent} />
+      <SectionShell className="section verse-section" delay={0.15}>
+        <div className="verse-card">
+          <p>{verseQuote.text}</p>
+          <span>{verseQuote.reference}</span>
+        </div>
+      </SectionShell>
       <SectionShell className="section letter-section" delay={0.1}>
         <LetterSection />
       </SectionShell>
