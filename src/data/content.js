@@ -19,6 +19,7 @@ export const letterContent = [
   "Dedek, aku tahu malam-malam belajar kadang panjang dan kepala penuh. Aku nggak bisa hilangkan semuanya, tapi aku bisa nemenin kamu lewat halaman ini.",
   "Tadi pagi Abang ngebayangin kamu lagi nulis, minum kopi, lalu tarik napas sebentar. Satu kalimat nggak harus langsung sempurna.",
   "Satu hal yang pengen Abang ingatkan: kalau lagi capek, istirahat dulu. Nanti lanjut lagi. Aku tetep bangga sama usaha kamu.",
+  "Abang yakin, semua ini bakal mengantarkan kamu sampai dapat gelar S.Psi.",
 ];
 
 export const timelineSteps = [
@@ -27,7 +28,7 @@ export const timelineSteps = [
   { title: "Sempro", detail: "Ini bagian dimana kamu mulai lihat hasil kerja keras di depan mata." },
   { title: "Revisi", detail: "Bagian yang bikin capek, tapi juga bikin kamu semakin kuat." },
   { title: "Sidang", detail: "Momen paling tegang dan Abang percaya kamu bisa rileks di sana." },
-  { title: "Wisuda", detail: "Akhirnya hari kamu pakai toga dan Abang ikut ngerasain lega." },
+  { title: "Wisuda", detail: "Akhirnya hari kamu pakai toga S.Psi dan Abang ikut ngerasain lega." },
 ];
 
 export const stickyNotes = [

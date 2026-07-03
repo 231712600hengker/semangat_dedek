@@ -15,8 +15,8 @@ export function GraduationSection({ onCelebrate }) {
         transition={{ duration: 0.7 }}
       >
         <p>
-          Abang bayangkan kamu mengenakan toga, mengangkat tangan, dan melihat semua kerja keras itu berubah jadi lega.
-          Setiap halaman hari ini mendekatkan kamu pada momen itu.
+          Abang bayangkan kamu mengenakan toga S.Psi, mengangkat tangan, dan melihat semua kerja keras itu berubah jadi lega.
+          Setiap halaman hari ini mendekatkan kamu pada momen wisuda itu.
         </p>
         <button type="button" onClick={onCelebrate} className="celebrate-button">
           Rayakan sedikit
