@@ -10,8 +10,8 @@ export function StickyNotesSection() {
   return (
     <div className="sticky-shell">
       <div className="sticky-header">
-        <span>Sticky notes</span>
-        <h2>Catatan kecil buat hari ini</h2>
+        <span>Catatan kecil</span>
+        <h2>Semangat untuk hari ini</h2>
       </div>
       <div className="sticky-grid">
         {stickyNotes.map((note, index) => (
