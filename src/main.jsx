@@ -19,39 +19,39 @@ import "./styles.css";
 const loveConfig = {
   recipientName: "Dedek",
   fullName: "Trixy Theodora Situngkir",
-  nicknames: ["Dedek", "My 911", "Trixy"],
+  nicknames: ["Dedek", "My 911", "Iciii"],
   senderName: "Abang",
   thesisName: "skripsimu",
-  headline: "Dedek, Abang selalu ada di samping kamu, tenang saja.",
+  headline: "Dedek, santai aja. Abang nemenin kamu.",
   intro:
-    "Kalau hari ini revisi lagi ribet, tarik napas pelan dan nikmatin jeda singkat dulu. Kamu nggak harus ngebut, yang penting tetap jalan dengan kepala yang enak.",
+    "Skripsi lagi bikin kepala penuh? Tarik napas dulu, duduk rileks, lalu lanjut lagi kalau udah adem. Nggak usah buru-buru, yang penting kamu masih enjoy prosesnya.",
   closing:
-    "Nanti Abang pengen lihat senyum lega kamu. Untuk sekarang, anggap Abang sebagai teman santai yang nemenin di sela bab, data, dan meeting.",
+    "Abang pengen lihat senyum lega kamu nanti. Buat sekarang, anggap Abang sebagai teman chill di sela bab, data, dan deadline.",
 };
 
 const supportLines = [
-  "Kerja keras boleh, tapi Abang juga ingat kamu butuh jeda.",
-  "Abang suka lihat langkah kecil kamu menuju tujuan.",
-  "Kalau butuh cerita, Abang selalu siap dengerin.",
+  "Abang tahu kamu lagi kerja keras, tapi jeda juga perlu.",
+  "Langkah kecilmu udah oke banget, Abang ngeliat itu.",
+  "Kalau kamu butuh cerita, Abang siap nemenin kapan aja.",
 ];
 
 const reasons = [
-  "Abang tahu kamu tetap berusaha, walau kadang rasanya berat.",
-  "Abang suka cara kamu bertahan tanpa harus terlalu dipaksa.",
-  "Abang yakin satu tulisan kecil bisa bikin semuanya terasa lebih mudah.",
-  "Abang ada di sini, jadi kamu boleh rileks tahu nggak sendirian.",
-  "Istirahat singkat bisa bikin kamu balik lebih segar, Abang selalu ingat itu.",
-  "Abang sayang sama kamu, bahkan saat kamu lagi capek dan ngantuk.",
+  "Abang tahu kamu lagi ngasih usaha terbaik, meski kadang berat.",
+  "Kamu tetap asik banget, Dedek, meski skripsi lagi ditempa.",
+  "Satu paragraf aja udah oke kok, itu artinya kamu bergerak.",
+  "Abang di sini, jadi kamu nggak usah pusing sendirian.",
+  "Rehat sebentar itu bukan kalah, itu reload biar kamu balik lebih fit.",
+  "Abang sayang sama kamu, versi kerja keras dan versi santai.",
 ];
 
 const pocketNotes = [
-  "Minum dulu, ya. Otak kamu juga butuh dimanja sedikit. SIKIKKK AAAAAA",
-  "Revisi itu proses, bukan beban. Abang tahu kamu sudah berusaha.",
-  "Kalau mentok, tarik napas dan buka lagi sambil santai.",
-  "Abang kirim pelukan virtual, biar kamu nggak ngerasa sendiri.",
-  "Nggak apa-apa kalau hari ini belum selesai semua. Satu langkah kecil udah cukup.",
-  "Dedek keren pas lagi fokus. Abang bangga banget sama kamu.",
-  "Kalau dunia lagi rame, ingat Abang di sini buat kamu ngobrol. Lov u Dedek",
+  "Minum dulu, ya. Otak kamu juga butuh dimanja sedikit.",
+  "Revisi itu kayak jalan santai, bukan lomba. Abang tahu kamu udah effort.",
+  "Kalau mentok, tarik napas, lalu buka lagi perlahan dengan kepala yang adem.",
+  "Abang kirim pelukan virtual, biar suasana kamu jadi lebih hangat.",
+  "Belum kelar semua? Gapapa. Satu langkah kecil udah cukup berarti.",
+  "Dedek keren banget pas lagi fokus. Abang bangga kamu tahan lama.",
+  "Kalau dunia lagi riuh, ingat Abang selalu siap nemenin.",
 ];
 
 const milestones = [
@@ -215,7 +215,7 @@ function App() {
               Kotak semangat
             </p>
             <h2>{currentNote}</h2>
-            <p>Dari {loveConfig.senderName}, yang diam-diam ikut deg-degan tiap kamu cerita soal {loveConfig.thesisName}.</p>
+            <p>Dari {loveConfig.senderName}, yang selalu kepo sama cerita skripsimu.</p>
           </div>
           <button type="button" className="note-button" onClick={nextNote}>
             <Sparkles size={20} />
@@ -228,9 +228,9 @@ function App() {
         <div className="section-heading">
           <p className="section-kicker">
             <Camera size={16} />
-            Carousel kenangan
+            Foto-foto hangat
           </p>
-          <h2 id="memory-heading">Beberapa tempat kecil buat senyum Dedek muncul lagi</h2>
+          <h2 id="memory-heading">Kenangan kecil yang bikin senyum Dedek muncul lagi</h2>
         </div>
 
         <div className="memory-carousel">
@@ -288,7 +288,7 @@ function App() {
             <Heart size={16} />
             Enam alasan kecil
           </p>
-          <h2 id="reasons-heading">Kenapa Abang yakin kamu akan sampai garis akhir</h2>
+          <h2 id="reasons-heading">Kenapa Abang yakin kamu masih oke</h2>
         </div>
         <div className="reason-grid">
           {reasons.map((reason, index) => {
@@ -314,7 +314,7 @@ function App() {
             <Sparkles size={16} />
             Janji kecil Abang
           </p>
-          <h2 id="extra-heading">Abang selalu ingat hal-hal kecil yang bikin kamu kuat</h2>
+          <h2 id="extra-heading">Janji santai Abang buat kamu</h2>
         </div>
         <div className="promise-list">
           {promises.map((promise) => (
@@ -349,8 +349,8 @@ function App() {
 
       <footer>
         <p>
-          Untuk {loveConfig.fullName}: kamu boleh lambat, boleh lelah, boleh minta ditemani.
-          Tapi jangan lupa, kamu selalu berhasil bikin aku bangga.
+          Untuk {loveConfig.fullName}: boleh banget istirahat, boleh banget lelah, tapi ingat, kamu tetap luar biasa.
+          Abang selalu bangga sama kamu.
         </p>
         <div className="footer-meta">
           <span>Made by Abang</span>
