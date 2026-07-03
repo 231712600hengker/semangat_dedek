@@ -23,12 +23,34 @@ export const letterContent = [
 ];
 
 export const timelineSteps = [
-  { title: "Mulai Skripsi", detail: "Buka halaman pertama dan mulai tulis tanpa harus sempurna." },
-  { title: "Riset", detail: "Kumpulkan referensi dan ide yang mendukung argumen kamu." },
-  { title: "Naskah", detail: "Tulis draf awal bagian demi bagian agar ritmemu terjaga." },
-  { title: "Revisi", detail: "Perbaiki kata-kata dan struktur supaya pesanmu jadi lebih jelas." },
-  { title: "Sidang", detail: "Tunjukkan hasil kerja kerasmu di depan penguji dengan tenang." },
-  { title: "Wisuda", detail: "Akhirnya hari kamu pakai toga S.Psi dan semua upaya ini layak dirayakan." },
+  {
+    title: "Mulai Skripsi",
+    detail: "Semua perjalanan besar dimulai dari satu halaman kosong. Pelan-pelan, yang penting mulai."
+  },
+  {
+    title: "Proposal Disetujui",
+    detail: "Setelah revisi dan bimbingan, akhirnya penelitianmu siap dijalankan."
+  },
+  {
+    title: "Wawancara",
+    detail: "Kamu sudah bertemu narasumber, mendengar cerita mereka, dan mengumpulkan data yang berharga."
+  },
+  {
+    title: "Verbatim",
+    detail: "Sekarang memang melelahkan. Memutar rekaman berulang kali, mengetik setiap kata, bahkan setiap jeda. Tapi percayalah, setiap kalimat yang selesai diketik berarti satu langkah lebih dekat menuju gelar S.Psi."
+  },
+  {
+    title: "Analisis Data",
+    detail: "Dari tumpukan verbatim, kamu mulai menemukan makna, tema, dan jawaban atas pertanyaan penelitianmu."
+  },
+  {
+    title: "Revisi & Sidang",
+    detail: "Rapikan naskah, hadapi masukan dosen dengan tenang, lalu tunjukkan hasil kerja kerasmu saat sidang."
+  },
+  {
+    title: "Wisuda 🎓",
+    detail: "Hari itu akhirnya datang. Kamu berjalan memakai toga, namamu dipanggil, dan resmi menyandang gelar S.Psi. Semua malam lembur, revisi, wawancara, dan verbatim terbayar lunas. Bangga sama dirimu ya, kamu berhasil."
+  },
 ];
 
 export const stickyNotes = [
@@ -68,16 +90,36 @@ export const reasons = [
   "Dedek tahu kapan berhenti dan kapan lanjut.",
   "Dedek ikut jaga mimpi sendiri terus.",
   "Abang tahu kamu nggak gampang menyerah.",
-  "Kamu belajar dari setiap revisi.",
+  "Kamu adalah idol saya.",
   "Kamu tetap berharga walau lagi capek.",
 ];
 
 export const missionSteps = [
-  { level: "LEVEL 1", action: "Buka thesis", note: "Cukup mulai dari halaman pertama." },
-  { level: "LEVEL 2", action: "Tulis 100 kata", note: "Nggak perlu langsung banyak." },
-  { level: "LEVEL 3", action: "Minum air", note: "Biar nulisnya tetep jelas dan tidak pusing." },
-  { level: "LEVEL 4", action: "Ambil jeda", note: "15 menit biar kepala adem lagi." },
-  { level: "LEVEL 5", action: "Rayakan hari ini", note: "Kamu sudah jalan lagi hari ini." },
+  {
+    level: "LEVEL 1",
+    action: "Mulai dulu",
+    note: "Nggak perlu sempurna, yang penting berjalan."
+  },
+  {
+    level: "LEVEL 2",
+    action: "Fokus 25 menit",
+    note: "Satu sesi fokus lebih berarti daripada menunggu mood datang."
+  },
+  {
+    level: "LEVEL 3",
+    action: "Rayakan progres kecil",
+    note: "Satu paragraf pun tetap sebuah kemajuan."
+  },
+  {
+    level: "LEVEL 4",
+    action: "Jaga energi",
+    note: "Makan, minum, dan istirahat juga bagian dari produktivitas."
+  },
+  {
+    level: "LEVEL 5",
+    action: "Lanjut besok",
+    note: "Skripsi selesai karena konsisten, bukan karena ngebut satu hari."
+  },
 ];
 
 export const promises = [
@@ -93,7 +135,7 @@ export const verseQuote = {
 
 export const footerText = {
   ending: "Kalau kamu berhasil sampai bagian paling bawah... berarti hari ini kamu juga berhasil bertahan. Dan itu lebih dari cukup.",
-  signature: ["Made by Abang", "With <3", "Ketapang, Kalimantan Barat"],
+  signature: ["Made by Abang", "With <3", "dari Ketapang, Kalimantan Barat"],
 };
 
 export const dailyMessages = [
