@@ -109,9 +109,106 @@ button {
   color: #e0b9a7;
 }
 
-.app-shell.dark .hero-button,
-.app-shell.dark .control-button {
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+.app-shell.dark .eyebrow,
+.app-shell.dark .section-kicker,
+.app-shell.dark .hero-support,
+.app-shell.dark .support-chip,
+.app-shell.dark .nickname-row span,
+.app-shell.dark .memory-placeholder span,
+.app-shell.dark .journey-header span,
+.app-shell.dark .journey-header h2,
+.app-shell.dark .sticky-header span,
+.app-shell.dark .sticky-header h2,
+.app-shell.dark .timeline-content h3,
+.app-shell.dark .section-heading h2,
+.app-shell.dark .letter-body p,
+.app-shell.dark .memory-caption h3,
+.app-shell.dark .memory-caption p,
+.app-shell.dark .memory-caption span,
+.app-shell.dark .memory-meta h3,
+.app-shell.dark .memory-meta p,
+.app-shell.dark .reason-card strong,
+.app-shell.dark .mission-card h3,
+.app-shell.dark .promise-card h3 {
+  color: #f7ece5;
+}
+
+.app-shell.dark .support-chip {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.app-shell.dark .support-chip svg,
+.app-shell.dark .nickname-row span,
+.app-shell.dark .footer-signature span,
+.app-shell.dark .footer-meta span {
+  color: #f7ece5;
+}
+
+.app-shell.dark .nickname-row span {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.app-shell.dark .page-loader {
+  background: rgba(11, 8, 7, 0.92);
+}
+
+.app-shell.dark .page-loader p {
+  color: #f7ece5;
+}
+
+.app-shell.dark .loader-ring {
+  border: 6px solid rgba(255, 255, 255, 0.12);
+  border-top-color: #f7ece5;
+}
+
+.app-shell.dark .carousel-control,
+.app-shell.dark .control-button,
+.app-shell.dark .hero-button {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #f7ece5;
+}
+
+.app-shell.dark .dot {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.app-shell.dark .dot.active {
+  background: #d6b7a1;
+}
+
+.app-shell.dark .hero-scroll-hint,
+.app-shell.dark .timeline-node,
+.app-shell.dark .hero-copy p,
+.app-shell.dark .hero-copy h1,
+.app-shell.dark .memory-placeholder span {
+  color: #f7ece5;
+}
+
+.app-shell.dark .timeline-node {
+  background: #b27c5f;
+}
+
+.app-shell.dark .memory-card,
+.app-shell.dark .memory-slide,
+.app-shell.dark .memory-placeholder,
+.app-shell.dark .reason-card,
+.app-shell.dark .mission-card,
+.app-shell.dark .promise-card,
+.app-shell.dark .graduation-card,
+.app-shell.dark .ending-card,
+.app-shell.dark .note-panel,
+.app-shell.dark .sticky-note {
+  background: rgba(61, 46, 42, 0.95);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #f7ece5;
+}
+
+.app-shell.dark .reason-card:hover,
+.app-shell.dark .reason-card.opened {
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .page-loader {
