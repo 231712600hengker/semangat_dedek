@@ -57,17 +57,17 @@ const milestones = [
 
 const memories = [
   {
-    image: "Fav.jpeg",
+    image: "/photos/Fav.jpeg",
     title: "Foto favorit Abang",
     caption: "Yang satu ini nanti jadi alasan aku senyum sendiri.",
   },
   {
-    image: "Cute.jpeg",
+    image: "/photos/Cute.jpeg",
     title: "My 911 mode nerd",
     caption: "Tempat aman kecil yang selalu bikin semuanya terasa mungkin.",
   },
   {
-    image: "Luv.jpeg",
+    image: "/photos/Luv.jpeg",
     title: "Trixy Theodora Situngkir",
     caption: "Nama lengkap yang selalu kedengaran cantik, bahkan saat lagi bahas revisi.",
   },
