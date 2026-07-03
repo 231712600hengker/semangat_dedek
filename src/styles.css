@@ -391,7 +391,8 @@ footer {
 }
 
 .daily-card,
-.note-panel {
+.note-panel,
+.verse-card {
   border: 1px solid rgba(86, 53, 49, 0.11);
   border-radius: 8px;
   padding: clamp(24px, 4vw, 40px);
@@ -435,6 +436,25 @@ footer p {
 
 .memory-section {
   background: #fff7f1;
+}
+
+.verse-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #5f483f;
+  line-height: 1.7;
+}
+
+.verse-card p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.verse-card span {
+  color: #8f4b50;
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .memory-carousel {
@@ -693,9 +713,26 @@ footer {
 
 footer p {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 18px;
   text-align: center;
   font-size: clamp(1.05rem, 2vw, 1.35rem);
+}
+
+.footer-meta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: #7c3138;
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.footer-meta span {
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 999px;
+  border: 1px solid rgba(124, 49, 56, 0.12);
 }
 
 @media (max-width: 920px) {

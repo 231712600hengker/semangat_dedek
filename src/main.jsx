@@ -22,43 +22,43 @@ const loveConfig = {
   nicknames: ["Dedek", "My 911", "Trixy"],
   senderName: "Abang",
   thesisName: "skripsimu",
-  headline: "Dedek, Abang selalu dukung kamu sampai halaman terakhir.",
+  headline: "Dedek, Abang selalu ada di samping kamu, tenang saja.",
   intro:
-    "Kalau hari ini revisinya bikin kepala ramai, dengarkan Abang dulu. Tarik napas pelan, ya. Kamu nggak harus sempurna hari ini, Dedek cuma perlu tetap maju sedikit demi sedikit.",
+    "Kalau hari ini revisi lagi ribet, tarik napas pelan dan nikmatin jeda singkat dulu. Kamu nggak harus ngebut, yang penting tetap jalan dengan kepala yang enak.",
   closing:
-    "Nanti setelah semua ini selesai, Abang mau lihat senyum lega Trixy Theodora Situngkir yang paling manis. Untuk sekarang, Abang tetap di sini, jadi pelukan kecil di sela bab, data, dan revisi.",
+    "Nanti Abang pengen lihat senyum lega kamu. Untuk sekarang, anggap Abang sebagai teman santai yang nemenin di sela bab, data, dan meeting.",
 };
 
 const supportLines = [
-  "Abang selalu ingat kamu perlu rileks walau lagi kerja keras.",
-  "Abang bangga sama setiap usaha kecil yang kamu lakukan.",
-  "Abang selalu ada buat kamu ngobrol, kapan pun kamu butuh.",
+  "Kerja keras boleh, tapi Abang juga ingat kamu butuh jeda.",
+  "Abang suka lihat langkah kecil kamu menuju tujuan.",
+  "Kalau butuh cerita, Abang selalu siap dengerin.",
 ];
 
 const reasons = [
-  "Abang tahu kamu tetap berusaha, bahkan di hari yang terasa berat.",
-  "Abang bangga sama cara kamu bertahan, diam-diam tapi tegas.",
-  "Abang ingat, satu paragraf kecil tetap bagian dari kemenangan besar.",
-  "Abang di sini, jadi kamu nggak perlu melewati ini sendirian.",
-  "Abang suka lihat kamu serius, tapi ingat juga: istirahat itu juga bagian dari hebat.",
-  "Abang percaya versi kamu yang sedang berjuang ini tetap sangat layak dicintai.",
+  "Abang tahu kamu tetap berusaha, walau kadang rasanya berat.",
+  "Abang suka cara kamu bertahan tanpa harus terlalu dipaksa.",
+  "Abang yakin satu tulisan kecil bisa bikin semuanya terasa lebih mudah.",
+  "Abang ada di sini, jadi kamu boleh rileks tahu nggak sendirian.",
+  "Istirahat singkat bisa bikin kamu balik lebih segar, Abang selalu ingat itu.",
+  "Abang sayang sama kamu, bahkan saat kamu lagi capek dan ngantuk.",
 ];
 
 const pocketNotes = [
-  "Abang titip pesan: minum dulu. Otak hebat juga butuh disayang.",
-  "Abang tahu revisi bukan musuhmu. Dia cuma jalan muter menuju gelar.",
-  "Abang bilang: kalau stuck, buka satu dokumen saja. Menang kecil tetap menang.",
-  "Abang kirim pelukan virtual dulu sebelum kamu lanjut.",
-  "Abang ingin kamu ingat, hari ini tidak harus selesai semua. Yang penting kamu nggak menyerah pada diri sendiri.",
-  "Dedek lucu kalau fokus. Iya, ini observasi ilmiah langsung dari Abang.",
-  "My 911, kalau dunia terasa rame, Abang tetap nomor darurat yang paling siap dengerin kamu.",
+  "Minum dulu, ya. Otak kamu juga butuh dimanja sedikit. SIKIKKK AAAAAA",
+  "Revisi itu proses, bukan beban. Abang tahu kamu sudah berusaha.",
+  "Kalau mentok, tarik napas dan buka lagi sambil santai.",
+  "Abang kirim pelukan virtual, biar kamu nggak ngerasa sendiri.",
+  "Nggak apa-apa kalau hari ini belum selesai semua. Satu langkah kecil udah cukup.",
+  "Dedek keren pas lagi fokus. Abang bangga banget sama kamu.",
+  "Kalau dunia lagi rame, ingat Abang di sini buat kamu ngobrol. Lov u Dedek",
 ];
 
 const milestones = [
-  { icon: BookOpenCheck, label: "Buka dokumen", text: "Abang lihat langkah pertama kamu sudah paling berani." },
-  { icon: PenLine, label: "Tulis sedikit", text: "Abang percaya satu kalimat tetap menggeser garis akhir.", },
-  { icon: Coffee, label: "Ambil jeda", text: "Abang ingatkan: istirahat bukan gagal, itu strategi.", },
-  { icon: Star, label: "Kirim revisi", text: "Abang tahu, pelan-pelan kamu sedang menang.", },
+  { icon: BookOpenCheck, label: "Buka dokumen", text: "Buka dokumen itu langkah santai tapi penting, Abang lihat kamu berani.", },
+  { icon: PenLine, label: "Tulis sedikit", text: "Nulis sedikit udah berarti banget, Abang suka itu.", },
+  { icon: Coffee, label: "Ambil jeda", text: "Ambil kopi atau teh sebentar, biar mood kamu tetap enak.", },
+  { icon: Star, label: "Kirim revisi", text: "Abang bangga kamu udah kirim progress, pelan-pelan aja.", },
 ];
 
 const memories = [
@@ -98,6 +98,10 @@ function App() {
     "Abang selalu sedia dengerin kalau kamu butuh cerita.",
     "Abang selalu percaya kamu lebih kuat dari yang kamu rasakan.",
   ];
+  const verseQuote = {
+    text: "Sebab Aku ini mengetahui rancangan-rancangan apa yang ada pada-Ku mengenai kamu, demikianlah firman TUHAN, yaitu rancangan damai sejahtera dan bukan rancangan kecelakaan, untuk memberikan kepadamu hari depan yang penuh harapan.",
+    reference: "Yeremia 29:11",
+  };
   const todayLine = useMemo(() => {
     const formatter = new Intl.DateTimeFormat("id-ID", {
       weekday: "long",
@@ -197,6 +201,11 @@ function App() {
             <h2>Kalau kamu lupa betapa kuatnya kamu, baca ini dulu.</h2>
           </div>
           <p>{loveConfig.closing}</p>
+        </div>
+
+        <div className="verse-card">
+          <p>{verseQuote.text}</p>
+          <span>{verseQuote.reference}</span>
         </div>
 
         <div className="note-panel">
@@ -343,6 +352,11 @@ function App() {
           Untuk {loveConfig.fullName}: kamu boleh lambat, boleh lelah, boleh minta ditemani.
           Tapi jangan lupa, kamu selalu berhasil bikin aku bangga.
         </p>
+        <div className="footer-meta">
+          <span>Made by Abang</span>
+          <span>With &lt;3</span>
+          <span>Ketapang, Kalimantan Barat</span>
+        </div>
       </footer>
     </main>
   );
