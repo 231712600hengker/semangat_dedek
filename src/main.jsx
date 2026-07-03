@@ -20,61 +20,67 @@ const loveConfig = {
   recipientName: "Dedek",
   fullName: "Trixy Theodora Situngkir",
   nicknames: ["Dedek", "My 911", "Trixy"],
-  senderName: "Aku",
+  senderName: "Abang",
   thesisName: "skripsimu",
-  headline: "Dedek sudah sejauh ini. Aku bangga banget.",
+  headline: "Dedek, Abang selalu dukung kamu sampai halaman terakhir.",
   intro:
-    "Kalau hari ini revisinya bikin kepala ramai, sini berhenti sebentar. Tarik napas. Kamu tidak harus sempurna hari ini, kamu cuma perlu tetap pelan-pelan maju, My 911.",
+    "Kalau hari ini revisinya bikin kepala ramai, dengarkan Abang dulu. Tarik napas pelan, ya. Kamu nggak harus sempurna hari ini, Dedek cuma perlu tetap maju sedikit demi sedikit.",
   closing:
-    "Nanti setelah semua ini selesai, aku mau lihat senyum lega Trixy Theodora Situngkir yang paling manis. Untuk sekarang, aku tetap di sini, jadi tempat pulang kecil di sela-sela bab, data, dan revisi.",
+    "Nanti setelah semua ini selesai, Abang mau lihat senyum lega Trixy Theodora Situngkir yang paling manis. Untuk sekarang, Abang tetap di sini, jadi pelukan kecil di sela bab, data, dan revisi.",
 };
 
+const supportLines = [
+  "Abang selalu ingat kamu perlu rileks walau lagi kerja keras.",
+  "Abang bangga sama setiap usaha kecil yang kamu lakukan.",
+  "Abang selalu ada buat kamu ngobrol, kapan pun kamu butuh.",
+];
+
 const reasons = [
-  "Karena kamu tetap berusaha, bahkan di hari yang rasanya berat.",
-  "Karena cara kamu bertahan itu diam-diam keren sekali.",
-  "Karena satu paragraf kecil pun tetap bagian dari kemenangan.",
-  "Karena kamu boleh capek, tapi kamu tidak sendirian.",
-  "Karena aku suka lihat kamu serius, walau kadang bikin aku ingin bilang: istirahat dulu, cantik.",
-  "Karena versi kamu yang sedang berjuang ini tetap sangat layak dicintai.",
+  "Abang tahu kamu tetap berusaha, bahkan di hari yang terasa berat.",
+  "Abang bangga sama cara kamu bertahan, diam-diam tapi tegas.",
+  "Abang ingat, satu paragraf kecil tetap bagian dari kemenangan besar.",
+  "Abang di sini, jadi kamu nggak perlu melewati ini sendirian.",
+  "Abang suka lihat kamu serius, tapi ingat juga: istirahat itu juga bagian dari hebat.",
+  "Abang percaya versi kamu yang sedang berjuang ini tetap sangat layak dicintai.",
 ];
 
 const pocketNotes = [
-  "Minum dulu. Otak hebat juga butuh disayang.",
-  "Revisi bukan musuh. Dia cuma jalan muter menuju gelar.",
-  "Kalau stuck, buka satu dokumen saja. Menang kecil tetap menang.",
-  "Aku titip satu peluk virtual sebelum kamu lanjut.",
-  "Hari ini tidak harus selesai semua. Yang penting kamu tidak menyerah pada diri sendiri.",
-  "Dedek lucu kalau fokus. Iya, ini observasi ilmiah dari aku.",
-  "My 911, kalau dunia terasa rame, aku tetap jadi nomor darurat yang paling siap dengerin kamu.",
+  "Abang titip pesan: minum dulu. Otak hebat juga butuh disayang.",
+  "Abang tahu revisi bukan musuhmu. Dia cuma jalan muter menuju gelar.",
+  "Abang bilang: kalau stuck, buka satu dokumen saja. Menang kecil tetap menang.",
+  "Abang kirim pelukan virtual dulu sebelum kamu lanjut.",
+  "Abang ingin kamu ingat, hari ini tidak harus selesai semua. Yang penting kamu nggak menyerah pada diri sendiri.",
+  "Dedek lucu kalau fokus. Iya, ini observasi ilmiah langsung dari Abang.",
+  "My 911, kalau dunia terasa rame, Abang tetap nomor darurat yang paling siap dengerin kamu.",
 ];
 
 const milestones = [
-  { icon: BookOpenCheck, label: "Buka dokumen", text: "Langkah pertama sudah paling berani." },
-  { icon: PenLine, label: "Tulis sedikit", text: "Satu kalimat tetap menggeser garis akhir." },
-  { icon: Coffee, label: "Ambil jeda", text: "Istirahat bukan gagal. Itu strategi." },
-  { icon: Star, label: "Kirim revisi", text: "Pelan-pelan, kamu sedang menang." },
+  { icon: BookOpenCheck, label: "Buka dokumen", text: "Abang lihat langkah pertama kamu sudah paling berani." },
+  { icon: PenLine, label: "Tulis sedikit", text: "Abang percaya satu kalimat tetap menggeser garis akhir.", },
+  { icon: Coffee, label: "Ambil jeda", text: "Abang ingatkan: istirahat bukan gagal, itu strategi.", },
+  { icon: Star, label: "Kirim revisi", text: "Abang tahu, pelan-pelan kamu sedang menang.", },
 ];
 
 const memories = [
   {
     image: "/photos/Fav.jpeg",
     title: "Foto favorit Abang",
-    caption: "Yang satu ini nanti jadi alasan aku senyum sendiri.",
+    caption: "Abang simpan ini untuk alasan senyum sendiri.",
   },
   {
     image: "/photos/Cute.jpeg",
     title: "My 911 mode nerd",
-    caption: "Tempat aman kecil yang selalu bikin semuanya terasa mungkin.",
+    caption: "Abang suka lihat kamu jadi tempat aman kecil yang selalu terasa mungkin.",
   },
   {
     image: "/photos/Luv.jpeg",
     title: "Trixy Theodora Situngkir",
-    caption: "Nama lengkap yang selalu kedengaran cantik, bahkan saat lagi bahas revisi.",
+    caption: "Nama kamu kedengaran cantik buat Abang, bahkan saat bahas revisi.",
   },
   {
     image: "",
     title: "Setelah sidang nanti",
-    caption: "Aku simpan slot ini untuk foto senyum lega kamu.",
+    caption: "Abang simpan slot ini untuk foto senyum lega kamu.",
   },
 ];
 
@@ -83,9 +89,15 @@ function App() {
   const [memoryIndex, setMemoryIndex] = useState(0);
   const [openedReasons, setOpenedReasons] = useState([]);
   const [blushMode, setBlushMode] = useState(false);
+  const [isMemoryTransitioning, setIsMemoryTransitioning] = useState(false);
 
   const currentNote = pocketNotes[noteIndex % pocketNotes.length];
   const currentMemory = memories[memoryIndex];
+  const promises = [
+    "Abang selalu ingat kamu berhak istirahat walau sibuk.",
+    "Abang selalu sedia dengerin kalau kamu butuh cerita.",
+    "Abang selalu percaya kamu lebih kuat dari yang kamu rasakan.",
+  ];
   const todayLine = useMemo(() => {
     const formatter = new Intl.DateTimeFormat("id-ID", {
       weekday: "long",
@@ -108,7 +120,11 @@ function App() {
   }
 
   function goToMemory(direction) {
-    setMemoryIndex((value) => (value + direction + memories.length) % memories.length);
+    setIsMemoryTransitioning(true);
+    window.setTimeout(() => {
+      setMemoryIndex((value) => (value + direction + memories.length) % memories.length);
+      setIsMemoryTransitioning(false);
+    }, 170);
   }
 
   return (
@@ -135,6 +151,15 @@ function App() {
               <MessageCircleHeart size={19} />
               Pesan malu-malu
             </button>
+          </div>
+
+          <div className="hero-support">
+            {supportLines.map((line) => (
+              <div key={line} className="support-chip">
+                <Sparkles size={16} />
+                <span>{line}</span>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -209,7 +234,7 @@ function App() {
             <ChevronLeft size={22} />
           </button>
 
-          <article className="memory-slide">
+          <article className={`memory-slide ${isMemoryTransitioning ? "memory-shift" : ""}`}>
             {currentMemory.image ? (
               <img src={currentMemory.image} alt={currentMemory.title} />
             ) : (
@@ -254,7 +279,7 @@ function App() {
             <Heart size={16} />
             Enam alasan kecil
           </p>
-          <h2 id="reasons-heading">Kenapa aku yakin kamu akan sampai garis akhir</h2>
+          <h2 id="reasons-heading">Kenapa Abang yakin kamu akan sampai garis akhir</h2>
         </div>
         <div className="reason-grid">
           {reasons.map((reason, index) => {
@@ -271,6 +296,24 @@ function App() {
               </button>
             );
           })}
+        </div>
+      </section>
+
+      <section className="extra-section" aria-labelledby="extra-heading">
+        <div className="section-heading">
+          <p className="section-kicker">
+            <Sparkles size={16} />
+            Janji kecil Abang
+          </p>
+          <h2 id="extra-heading">Abang selalu ingat hal-hal kecil yang bikin kamu kuat</h2>
+        </div>
+        <div className="promise-list">
+          {promises.map((promise) => (
+            <article key={promise} className="promise-card">
+              <Sparkles size={18} />
+              <p>{promise}</p>
+            </article>
+          ))}
         </div>
       </section>
 
