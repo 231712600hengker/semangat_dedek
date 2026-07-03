@@ -23,21 +23,21 @@ export const letterContent = [
 ];
 
 export const timelineSteps = [
-  { title: "Mulai Skripsi", detail: "Saat kamu mulai nulis pertama kali dan percaya kalau ini bisa dilewati." },
-  { title: "Proposal", detail: "Waktu kamu bilang, ‘gue siap’, dan Abang senyum sendiri karena kamu maju." },
-  { title: "Sempro", detail: "Ini bagian dimana kamu mulai lihat hasil kerja keras di depan mata." },
-  { title: "Revisi", detail: "Bagian yang bikin capek, tapi juga bikin kamu semakin kuat." },
-  { title: "Sidang", detail: "Momen paling tegang dan Abang percaya kamu bisa rileks di sana." },
-  { title: "Wisuda", detail: "Akhirnya hari kamu pakai toga S.Psi dan Abang ikut ngerasain lega." },
+  { title: "Mulai Skripsi", detail: "Buka halaman pertama dan mulai tulis tanpa harus sempurna." },
+  { title: "Riset", detail: "Kumpulkan referensi dan ide yang mendukung argumen kamu." },
+  { title: "Naskah", detail: "Tulis draf awal bagian demi bagian agar ritmemu terjaga." },
+  { title: "Revisi", detail: "Perbaiki kata-kata dan struktur supaya pesanmu jadi lebih jelas." },
+  { title: "Sidang", detail: "Tunjukkan hasil kerja kerasmu di depan penguji dengan tenang." },
+  { title: "Wisuda", detail: "Akhirnya hari kamu pakai toga S.Psi dan semua upaya ini layak dirayakan." },
 ];
 
 export const stickyNotes = [
-  "Hari ini cukup 100 kata.",
-  "Capek itu boleh.",
-  "Jangan lupa minum.",
-  "Abang bangga.",
-  "Pelan aja.",
-  "Kamu nggak sendirian.",
+  "Tulis 150 kata dulu, nanti kamu bisa edit lagi lebih rapi.",
+  "Kerjakan satu bagian kecil saja, jangan pikirkan keseluruhannya.",
+  "Istirahat 10 menit bisa banget bikin otakmu lebih fokus lagi.",
+  "Minum air putih dan tarik napas dalam sebelum lanjut menulis.",
+  "Langkah kecil hari ini tetap berdampak besar besok.",
+  "Nanti kamu akan bangga lihat seberapa jauh kamu sudah sampai.",
 ];
 
 export const memories = [

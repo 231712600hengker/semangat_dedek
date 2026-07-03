@@ -6,7 +6,7 @@ export function JourneySection() {
     <div className="journey-shell">
       <div className="journey-header">
         <span>Perjalanan</span>
-        <h2>Langkah-langkah kecil menuju wisuda</h2>
+        <h2>Langkah-langkah kecil sampai sidang dan wisuda</h2>
       </div>
       <div className="timeline">
         {timelineSteps.map((step, index) => (
